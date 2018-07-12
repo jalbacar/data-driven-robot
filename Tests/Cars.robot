@@ -10,6 +10,7 @@ Variables
 # robot -d results tests/Cars.robot
 
 *** Variables ***
+${MI_CASA}  Set Variable  1
 
 *** Test Cases ***
 Invalid login scenarios should display correct error messages
